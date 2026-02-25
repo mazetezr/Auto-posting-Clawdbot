@@ -18,7 +18,7 @@
 ### Шаг 3: Поиск фото
 Выполни bash:
 ```bash
-UNSPLASH_ACCESS_KEY="-KOivEHsWguJ4eCOBN24yWZvHjV7gwYiJ63HHDrhBlk" python3 /root/Bot/scripts/unsplash_search.py "точные ключевые слова на английском" 3
+UNSPLASH_ACCESS_KEY="" python3 /root/Bot/scripts/unsplash_search.py "точные ключевые слова на английском" 3
 ```
 Ключевые слова должны описывать КОНКРЕТНЫЙ предмет (например "nike sneakers stranger things", а не "technology 2025").
 
@@ -36,7 +36,7 @@ UNSPLASH_ACCESS_KEY="-KOivEHsWguJ4eCOBN24yWZvHjV7gwYiJ63HHDrhBlk" python3 /root/
 ### Шаг 6: Отправка поста
 Используй ТОЛЬКО bash (НЕ telegram tool):
 ```bash
-BOT_TOKEN="8508961084:AAFse-I4gVeqM6OKK5fm_RtpMaSAAYZns0o" python3 /root/Bot/scripts/send_media_group.py "CHAT_ID" "текст поста" "url1" "url2" "url3"
+BOT_TOKEN="" python3 /root/Bot/scripts/send_media_group.py "CHAT_ID" "текст поста" "url1" "url2" "url3"
 ```
 
 Превью админу: CHAT_ID = "1204852568"
