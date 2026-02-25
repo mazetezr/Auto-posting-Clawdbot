@@ -1,5 +1,5 @@
 #!/bin/bash
-BOT_TOKEN="8508961084:AAFse-I4gVeqM6OKK5fm_RtpMaSAAYZns0o" python3 /root/Bot/scripts/send_media_group.py "-1003754927434" "Moltbot: как AI-ассистент взорвал Twitter и заставил всех покупать Mac mini 🚀
+BOT_TOKEN="" python3 /root/Bot/scripts/send_media_group.py "chat_id" "Moltbot: как AI-ассистент взорвал Twitter и заставил всех покупать Mac mini 🚀
 
 За 72 часа Clawdbot превратился в Moltbot после запроса от Anthropic (конфликт с брендом Claude) — и это только добавило хайпа. Западные разработчики скупают Mac mini десятками, чтобы развернуть собственного AI-агента дома.
 
