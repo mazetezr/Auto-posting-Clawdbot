@@ -10,7 +10,7 @@
 ### 2. Поиск фото через Unsplash
 Выполни bash команду:
 ```bash
-UNSPLASH_ACCESS_KEY="-KOivEHsWguJ4eCOBN24yWZvHjV7gwYiJ63HHDrhBlk" python3 /root/Bot/scripts/unsplash_search.py "keywords in english" 3
+UNSPLASH_ACCESS_KEY="api-key" python3 /root/Bot/scripts/unsplash_search.py "keywords in english" 3
 ```
 
 Запомни значения url_regular из результата — это URL фотографий.
@@ -29,7 +29,7 @@ UNSPLASH_ACCESS_KEY="-KOivEHsWguJ4eCOBN24yWZvHjV7gwYiJ63HHDrhBlk" python3 /root/
 
 Выполни bash команду (замени значения):
 ```bash
-BOT_TOKEN="8508961084:AAFse-I4gVeqM6OKK5fm_RtpMaSAAYZns0o" python3 /root/Bot/scripts/send_media_group.py "1204852568" "ТЕКСТ ПОСТА ЗДЕСЬ" "URL_ФОТО_1" "URL_ФОТО_2" "URL_ФОТО_3"
+BOT_TOKEN="token" python3 /root/Bot/scripts/send_media_group.py "user_tg_id" "ТЕКСТ ПОСТА ЗДЕСЬ" "URL_ФОТО_1" "URL_ФОТО_2" "URL_ФОТО_3"
 ```
 
 ### 5. Ожидание ответа
@@ -38,7 +38,7 @@ BOT_TOKEN="8508961084:AAFse-I4gVeqM6OKK5fm_RtpMaSAAYZns0o" python3 /root/Bot/scr
 
 ### 6. Публикация в канал
 ```bash
-BOT_TOKEN="8508961084:AAFse-I4gVeqM6OKK5fm_RtpMaSAAYZns0o" python3 /root/Bot/scripts/send_media_group.py "-1003754927434" "ТЕКСТ ПОСТА" "URL1" "URL2" "URL3"
+BOT_TOKEN="token" python3 /root/Bot/scripts/send_media_group.py "channel_tg_id" "ТЕКСТ ПОСТА" "URL1" "URL2" "URL3"
 ```
 
 ## Запрещено
