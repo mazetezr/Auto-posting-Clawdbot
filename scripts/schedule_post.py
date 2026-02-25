@@ -11,8 +11,8 @@ import os
 import subprocess
 from datetime import datetime, timezone, timedelta
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8508961084:AAFse-I4gVeqM6OKK5fm_RtpMaSAAYZns0o")
-CHANNEL_ID = "-1003754927434"
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+CHANNEL_ID = ""
 
 def schedule_post(time_str: str, caption: str, photo_urls: list) -> dict:
     """Schedule post for publication at specified MSK time."""
